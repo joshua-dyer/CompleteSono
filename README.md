@@ -1,0 +1,1 @@
+This was a simple test project in which I was learning about Bootstrap.  The main thing I learned from the project was that one really needs to use it as it is built, and not add very much customization.  I think most of my issues with it were caused by my attempts to 'adjust' things with CSS as opposed to using the predefinied class options.
