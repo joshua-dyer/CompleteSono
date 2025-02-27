@@ -1,125 +1,227 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Travel Page</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <link rel="stylesheet" href="styles.css">
-    </head>
+<html lang="en" data-bs-theme="dark">
 
-    <body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Complete Sono Services, LLC</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/solution.css">
+</head>
 
-          <nav class="navbar navbar-expand-sm bg-primary top-bar" data-bs-theme="dark">
-            <div class="container-fluid top-bar">
-              
-              <div class="navbar-brand">Complete Sono Services</div>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+<body>
 
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Contact Info
-                    </a>
-                    <ul class="dropdown-menu contact-info">
-                      <li>Phone: 256-736-9034</li>
-                      <li>eMail: jgmnk@att.net</li>
-                    </ul>
-                  </li>
-                </ul>
+  <!-- Title -->
+  <section>
+    <header class="p-3 gradient-background">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+  
 
-                
-
-                <form class="d-flex" role="search" method="get" action="https://www.google.com/search">
-                  <input class="form-control me-2" type="search" name="q" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-dark" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
-
-    <!-- End of Nav -->
-
-
-
-    <div class="container-fluid">
-<!-- LEFT COLUMN -->
-        <div class="row custom-row justify-content-evenly align-items-center">
-            <div class="col-sm-4 tall-col">
-                <div class="p-3 border bg-light tall-content">
-
-                    <div class="list-header">About Our Company</div>
-                    <ol class="list-format">
-                        <li>Local Mobile Ultrasound company based out of North Alabama</li>
-                        <li>Provide all aging equipment and supplies necessary to perform studies</li>
-                        <li>Provide qualified technologist and access to radiologist and cardiologist for exam interpretation.</li>
-                    </ol>
-                    
-
-                </div>
-            </div>
-<!-- RIGHT COLUMN -->
-            <div class="col-sm-4 tall-col">
-                <div class="p-3 border bg-light tall-content">
-                
-                    <div class="list-header">About Our Services</div>
-                    <ol class="list-format">
-                        <li>Echocardiogram</li>
-                        <li><b>Vascular Studies:</b>Abdominal Aorta, Arterial, Venous, and Carotid Doppler</li>
-                        <li><b>Routine Studies:</b>Abdominal, Renal, Pelvic, Thyroid, Breast, Scrotum, and Soft Tissue</li>
-                    </ol>
-                
-                
-                    
-                </div>
-            </div>
-
-            <div class="col-sm-4 tall-col">
-                <div class="p-3 border bg-light tall-content">
-                
-                    <div class="list-header">Simple Pricing Structure</div>
-                    
-                    <table class="table-format" style="width:80%">
-                        <tr>
-                          <th>Study</th>
-                          <th>Technical Fee</th>
-                          <th>Radiology Fee</th>
-                          <th>Total</th>
-                        </tr>
-                        <tr>
-                            <td>Echocardiogram</td>
-                            <td>$90.00</td>
-                            <td>$50.00</td>
-                            <td>$140.00</td>
-                        </tr>
-                        <tr>
-                            <td>Vascular Study</td>
-                            <td>$80.00</td>
-                            <td>$25.00</td>
-                            <td>$105.00</td>
-                        </tr>
-                        <tr>
-                            <td>Routine Study</td>
-                            <td>$60.00</td>
-                            <td>$25.00</td>
-                            <td>$85.00</td>
-                        </tr>
-                    
-                </div>
-            </div>
+          
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            
+            <li><a href="#about" class="nav-link px-2 text-black">About</a></li>
+            <li><a href="#features" class="nav-link px-2 text-black">Features</a></li>
+            <li><a href="#pricing" class="nav-link px-2 text-black">Pricing</a></li>
+          </ul>
+  
 
         </div>
+      </div>
+    </header>
+  </section>
+  
+
+
+  <!-- About -->
+  <section id="about">
+
+    <div class="px-4 pt-5 my-5 text-center border-bottom">
+      <h1 class="display-4 fw-bold text-body-emphasis">Complete Sono Services</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Offer your patients in-house diagnostic ultrasound services.  Reduce report turnaround and delays which impair efficient patient care.  Give your patients the option to visit their familiar practitioner and clinic for their imaging needs rather than being sent out to an unfamiliar hospital or imaging center.</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+          
+          <a href="tel:+12567369979" class="btn btn-primary btn-lg px-4 me-sm-3">
+            Call Us</a>
+          
+            <a href="mailto:jgmnk@att.net" class="btn btn-success btn-lg px-4 me-sm-3">
+              Email Us
+          </a>
+        </div>
+      </div>
+      <div class="overflow-hidden" style="max-height: 30vh;">
+        <div class="container px-5">
+          <img src="./images/ultrasound-machine2.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+        </div>
+      </div>
     </div>
-    
+  </section>
+
+
+  <!-- Features -->
+  <section id="features">
+    <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+      <div class="col d-flex flex-column align-items-start gap-2">
+        <h2 class="fw-bold text-body-emphasis">About Us</h2>
+        <p class="text-body-secondary">We are a local mobile ultrasound company based out of North Alabama.  We provide all imaging equipment and supplies necessary to perform studies.  We provide qualified technologists, radiologists, and cardiologists for a complete service package to provide the in-house care your patients deserve.</p>
+        <a href="tel:+12567369979" class="btn btn-primary btn-lg px-4 me-sm-3">
+          Call Us</a>
+      </div>
+
+      <div class="col">
+        <div class="row row-cols-1 row-cols-sm-2 g-4">
+          <div class="col d-flex flex-column gap-2">
+            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#collection"></use>
+              </svg>
+            </div>
+            <h4 class="fw-semibold mb-0 text-body-emphasis">Echocardiogram</h4>
+            <p class="text-body-secondary">Echocardiograms interepreted by a cardiologist with 24-48 hour turnaround from study completion to report provided.</p>
+          </div>
+
+          <div class="col d-flex flex-column gap-2">
+            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#gear-fill"></use>
+              </svg>
+            </div>
+            <h4 class="fw-semibold mb-0 text-body-emphasis">Vascular Ultrasound</h4>
+            <p class="text-body-secondary">Carotid, Arterial, Great Vessel (Aorta/IVC) and Venous Doppler studies with radiology interpretation provided within 24 hours with 1 hour turnaround for STAT studies.</p>
+          </div>
+
+          <div class="col d-flex flex-column gap-2">
+            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#speedometer"></use>
+              </svg>
+            </div>
+            <h4 class="fw-semibold mb-0 text-body-emphasis">Routine Ultrasound</h4>
+            <p class="text-body-secondary">Abdominal, pelvic and single organ studies with radiology interpretation provided within 24 hours with 1 hour turnaround for STAT studies.</p>
+          </div>
+
+          <div class="col d-flex flex-column gap-2">
+            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+              <svg class="bi" width="1em" height="1em">
+                <use xlink:href="#table"></use>
+              </svg>
+            </div>
+            <h4 class="fw-semibold mb-0 text-body-emphasis">Small Parts</h4>
+            <p class="text-body-secondary">Thyroid, breast, scrotum, and soft tissue studies with radiology interpretation provided within 24 hours with 1 hour turnaround for STAT studies.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- Pricing -->
+  <section id="pricing">
+
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h1 class="display-4 fw-normal text-body-emphasis">Pricing</h1>
+      <p class="fs-5 text-body-secondary">A simple pricing plan with absolutely <i>no</i> hidden fees</p>
+    </div>
+
+
+    <main>
+      <div class="row row-cols-1 row-cols-md-4 mb-4 text-center">
+
+
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-bg-primary border-primary">
+              <h4 class="my-0 fw-normal">Echocardiogram</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$124</h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>All fees included</li>
+                <li>24-48 Hour turnaround</li>
+                <li>Medical Coding Assistance</li>
+                <li>Imaging and Report Archival</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-bg-primary border-primary">
+              <h4 class="my-0 fw-normal">Vascular</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$102</h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>All fees included</li>
+                <li>24 Hour turnaround</li>
+                <li>1 Hour Stat report option available</li>
+                <li>Medical Coding Assistance</li>
+                <li>Imaging and Report Archival</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-bg-primary border-primary">
+              <h4 class="my-0 fw-normal">Routine</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$82</h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>All fees included</li>
+                <li>24 Hour turnaround</li>
+                <li>1 Hour Stat report option available</li>
+                <li>Medical Coding Assistance</li>
+                <li>Imaging and Report Archival</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-bg-primary border-primary">
+              <h4 class="my-0 fw-normal">Small Parts</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$78</h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>All fees included</li>
+                <li>24 Hour turnaround</li>
+                <li>1 Hour Stat report option available</li>
+                <li>Medical Coding Assistance</li>
+                <li>Imaging and Report Archival</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>     
+    </main>
+
+
+  </section>
+  <!-- Footer -->
+  <section id="footer">
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>© 2025 Complete Sono Services, LLC. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-heart-pulse-fill" viewBox="0 0 16 16">
+          <path d="M1.475 9C2.702 10.84 4.779 12.871 8 15c3.221-2.129 5.298-4.16 6.525-6H12a.5.5 0 0 1-.464-.314l-1.457-3.642-1.598 5.593a.5.5 0 0 1-.945.049L5.889 6.568l-1.473 2.21A.5.5 0 0 1 4 9z"/>
+          <path d="M.88 8C-2.427 1.68 4.41-2 7.823 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C11.59-2 18.426 1.68 15.12 8h-2.783l-1.874-4.686a.5.5 0 0 0-.945.049L7.921 8.956 6.464 5.314a.5.5 0 0 0-.88-.091L3.732 8z"/>
+        </svg></li>
+      </ul>
+    </div>
 
 
 
+  </section>
 
-
-          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
 
 </html>
