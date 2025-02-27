@@ -1,65 +1,29 @@
-:root{
-    --bg-blue: rgb(205, 238, 249);
-    --text-blue: rgb(100, 188, 217);
-    --gentle-white: #cd8a38;
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
 }
 
-
-html{
-    background-color: var(--bg-blue); !important
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
-body{
-    font-family: 'Times New Roman', Times, serif;
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
 }
 
-
-.top-bar{
-    padding: 0;
-}
-.top-bar img{
-    width: 60px;
-    margin: 0 40px;
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
 }
 
-
-.tall-col{
-    height: 80vh;
-    background-color: var(--bg-blue);
-}
-
-.tall-content{
-    height: 100%;
-}
-
-.list-header{
-    font-size: 2.4rem;
-    color: var(--text-blue);
-    font-weight: 600;
-}
-
-.list-format{
-    list-style: square;
-    color: var(--text-blue);
-    font-size: 1.6rem;
-}
-.list-format li{
-    margin: 10%;
-}
-
-.table-format, th, td{
-    font-size: 1.4rem;
-    border: 1px solid var(--text-blue);
-    color: var(--text-blue);
-    padding: 0 10px;
-}
-.table-format{
-    width: 100%;
-    margin-top: 20%;
-}
-.contact-info li{
-    padding-left: 10px;
-}
-.co-name{
-    padding-left: 10%;
-}
